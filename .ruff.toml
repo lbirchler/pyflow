@@ -1,0 +1,22 @@
+target-version = "py39"
+line-length = 79 
+indent-width = 2
+
+[format]
+quote-style = "single"
+
+[lint]
+extend-select = [
+  "DTZ",  # flake8-datetimez
+  "F",    # pyflakes 
+  "FURB", # refurb 
+  "I",    # isort 
+  "PERF", # perflint 
+  "PL",   # pyline 
+  "PTH",  # flake8-use-pathlib
+  "RET",  # flake8-return
+  "SIM",  # flake8-simplify
+  "UP",   # pyupgrade
+]
+
+preview = true
